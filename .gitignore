@@ -4,3 +4,6 @@ __pycache__
 .env
 .devcontainer
 compose-dev.yaml
+.mypy_cache
+.pytest_cache
+.tox
