@@ -1,4 +1,6 @@
 # replit_keep_alive
+![Tests](https://github.com/Reathe/replit_keep_alive/actions/workflows/tests.yml/badge.svg)
+
 Easy way to keep your replit alive by calling keep_alive, and then having (for example) uptimerobot monitor the page it created
 
 In your code:
