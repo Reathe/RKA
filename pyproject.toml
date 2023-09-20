@@ -9,11 +9,24 @@ authors = [
 ]
 description = "Keep you replit app running"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+  "flask~=2.3"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest~=7.4",
+  "isort~=5.12",
+  "black~=23.9",
+  "flake8~=6.1",
+  "mypy~=1.5",
+  "tox~=4.11",
 ]
 
 [project.urls]
