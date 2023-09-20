@@ -2,7 +2,7 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
-name = "replit_keep_alive"
+name = "replit-keep-alive"
 version = "0.0.1"
 authors = [
   { name="Rafael Bachourian", email="bachourian@gmail.com" },
