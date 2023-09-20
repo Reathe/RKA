@@ -1,6 +1,6 @@
 import pytest
 
-from replit_keep_alive.keep_alive import app
+from RKA.keep_alive import app
 
 
 @pytest.fixture
